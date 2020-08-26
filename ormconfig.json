@@ -1,0 +1,24 @@
+{
+    "type": "mysql",
+    "host": "mysql.dotsolucoes.com.br",
+    "port": 3306,
+    "username": "dotsolucoes03",
+    "password": "agz9479hla",
+    "database": "dotsolucoes03",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/entity/**/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity",
+       "migrationsDir": "src/migration",
+       "subscribersDir": "src/subscriber"
+    }
+ }
